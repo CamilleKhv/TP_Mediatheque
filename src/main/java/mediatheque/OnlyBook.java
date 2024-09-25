@@ -7,5 +7,6 @@ public class OnlyBook implements MediaVisitor {
     }
 
 
-    public void visit(CD cd) { }
+    public void visit(CD cd) {
+    }
 }

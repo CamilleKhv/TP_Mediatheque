@@ -9,4 +9,5 @@ public class OnlyCD implements MediaVisitor {
     public void visit(CD cd) {
         System.out.println("Détails du CD : " + cd.getNumberOfTracks() + " / " + cd.getTitle());
     }
+
 }

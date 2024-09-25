@@ -28,7 +28,6 @@ public class Book extends Item {
 	@Override
 	public void accept(MediaVisitor visitor) {
 		visitor.visit(this);
-
 	}
 
 }

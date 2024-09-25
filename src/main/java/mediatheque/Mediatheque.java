@@ -28,7 +28,6 @@ public class Mediatheque {
         for (Item item : items) {
             item.accept(printCDVisitor);
         }
-
     }
 
 }

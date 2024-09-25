@@ -10,7 +10,7 @@ public class Main {
         mediatheque.addItem( new CD(6, "A Tear In The Fabric Of Life"));
         mediatheque.addItem( new Book("Wajdi Mouawad", "Incendies"));
         mediatheque.printCatalog();
-        System.out.println(("///////////////"));
+        System.out.println(("/////////////////////"));
         mediatheque.printOnlyBook();
         mediatheque.printOnlyCD();
     }
