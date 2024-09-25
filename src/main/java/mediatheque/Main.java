@@ -12,5 +12,6 @@ public class Main {
         mediatheque.printCatalog();
         System.out.println(("///////////////"));
         mediatheque.printOnlyBook();
+        mediatheque.printOnlyCD();
     }
 }
